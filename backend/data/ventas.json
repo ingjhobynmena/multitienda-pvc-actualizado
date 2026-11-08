@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-09-30T23:56:03.644Z",
+    "clienteId": null,
+    "clienteNombre": "Cliente mostrador",
+    "items": [
+      {
+        "productoId": 1,
+        "nombre": " PVC blanco madera",
+        "cantidad": 16,
+        "precio": 33000,
+        "subtotal": 528000
+      },
+      {
+        "productoId": 2,
+        "nombre": " WPC pino",
+        "cantidad": 10,
+        "precio": 35000,
+        "subtotal": 350000
+      },
+      {
+        "productoId": 6,
+        "nombre": "Estuco plástico",
+        "cantidad": 13,
+        "precio": 60000,
+        "subtotal": 780000
+      },
+      {
+        "productoId": 8,
+        "nombre": "Pintura",
+        "cantidad": 2,
+        "precio": 95000,
+        "subtotal": 190000
+      },
+      {
+        "productoId": 3,
+        "nombre": "Placa Drywall (yeso)",
+        "cantidad": 4,
+        "precio": 52000,
+        "subtotal": 208000
+      }
+    ],
+    "total": 2056000
+  }
+]

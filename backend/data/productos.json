@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "nombre": " PVC blanco madera",
+    "categoria": "PVC",
+    "descripcion": " PVC para paredes y techos.",
+    "precio": 33000,
+    "stock": 84,
+    "unidad": "paquete"
+  },
+  {
+    "id": 2,
+    "nombre": " WPC pino",
+    "categoria": "WPC",
+    "descripcion": " WPC para acabados modernos.",
+    "precio": 35000,
+    "stock": 20,
+    "unidad": "paquete"
+  },
+  {
+    "id": 3,
+    "nombre": "Placa Drywall (yeso)",
+    "categoria": "Drywall",
+    "descripcion": "Placa de drywall para construcción y remodelación.",
+    "precio": 52000,
+    "stock": 196,
+    "unidad": "unidad"
+  },
+  {
+    "id": 4,
+    "nombre": "Placa Superboard 6 mm",
+    "categoria": "Superboard",
+    "descripcion": "Placa de fibrocemento para diferentes proyectos.",
+    "precio": 53000,
+    "stock": 300,
+    "unidad": "unidad"
+  },
+  {
+    "id": 5,
+    "nombre": "Marmolizada negro imperial",
+    "categoria": "Marmolizada",
+    "descripcion": "Revestimiento marmolizado para paredes.",
+    "precio": 120000,
+    "stock": 50,
+    "unidad": "unidad"
+  },
+  {
+    "id": 6,
+    "nombre": "Estuco plástico",
+    "categoria": "Estuco",
+    "descripcion": "Estuco plástico para acabados de paredes.",
+    "precio": 60000,
+    "stock": 43,
+    "unidad": "cuñete"
+  },
+  {
+    "id": 7,
+    "nombre": "Masilla",
+    "categoria": "Masilla",
+    "descripcion": "Masilla para trabajos de acabado.",
+    "precio": 32000,
+    "stock": 15,
+    "unidad": "balde"
+  },
+  {
+    "id": 8,
+    "nombre": "Pintura",
+    "categoria": "Pinturas",
+    "descripcion": "Pintura para interiores y exteriores.",
+    "precio": 95000,
+    "stock": 8,
+    "unidad": "balde"
+  },
+  {
+    "id": 9,
+    "nombre": "Rodillo",
+    "categoria": "Accesorios",
+    "descripcion": "Rodillo para aplicación de pintura.",
+    "precio": 12000,
+    "stock": 40,
+    "unidad": "unidad"
+  },
+  {
+    "id": 10,
+    "nombre": "Brocha",
+    "categoria": "Accesorios",
+    "descripcion": "Brocha para trabajos de pintura y acabado.",
+    "precio": 8000,
+    "stock": 45,
+    "unidad": "unidad"
+  },
+  {
+    "id": 11,
+    "nombre": "Cinta",
+    "categoria": "Accesorios",
+    "descripcion": "Cinta para trabajos de instalación y acabado.",
+    "precio": 7000,
+    "stock": 60,
+    "unidad": "unidad"
+  },
+  {
+    "id": 12,
+    "nombre": "Luz LED 18 W",
+    "categoria": "Iluminación",
+    "descripcion": "Luminaria LED para iluminación interior.",
+    "precio": 18000,
+    "stock": 25,
+    "unidad": "unidad"
+  },
+  {
+    "id": 13,
+    "nombre": "velo dorada",
+    "categoria": "Marmolizada",
+    "descripcion": "Revestimiento decorativo marmolizado.",
+    "precio": 12000,
+    "stock": 4,
+    "unidad": "unidad"
+  }
+]

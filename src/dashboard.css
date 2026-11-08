@@ -1,0 +1,53 @@
+/* Estilos del panel principal de Multitienda PVC */
+.dashboard-page{display:flex;flex-direction:column;gap:28px}
+.dashboard-welcome{position:relative;display:flex;align-items:center;justify-content:space-between;gap:28px;min-height:245px;padding:38px 44px;overflow:hidden;border-radius:22px;color:#fff;background:linear-gradient(115deg,#123f2b 0%,#176b43 58%,#218653 100%);box-shadow:0 14px 34px rgba(18,63,43,.16)}
+.dashboard-welcome:before,.dashboard-welcome:after{position:absolute;content:"";border:1px solid rgba(255,255,255,.12);border-radius:50%;pointer-events:none}
+.dashboard-welcome:before{width:330px;height:330px;right:80px;top:-210px}
+.dashboard-welcome:after{width:420px;height:420px;right:-100px;bottom:-320px}
+.dashboard-welcome-copy{position:relative;z-index:1;max-width:660px}
+.dashboard-kicker{display:inline-block;color:#268052;font-size:.72rem;font-weight:800;letter-spacing:1.5px}
+.dashboard-welcome .dashboard-kicker{color:#b8e7c9}
+.dashboard-welcome h1{margin:12px 0 10px;color:#fff;font-size:clamp(1.9rem,4vw,2.7rem);line-height:1.15}
+.dashboard-welcome h1 span{color:#b9edca}
+.dashboard-welcome-copy>p{max-width:590px;margin:0;color:rgba(255,255,255,.83);line-height:1.7}
+.dashboard-welcome-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:24px}
+.dashboard-primary-action,.dashboard-secondary-action{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:43px;padding:0 18px;border-radius:9px;font-weight:700;text-decoration:none;transition:transform .2s ease,background .2s ease}
+.dashboard-primary-action{color:#17452f;background:#fff}
+.dashboard-primary-action:hover{transform:translateY(-2px);background:#e9f8ee}
+.dashboard-secondary-action{color:#fff;background:rgba(255,255,255,.12)}
+.dashboard-secondary-action:hover{background:rgba(255,255,255,.2)}
+.dashboard-welcome-mark{position:relative;z-index:1;display:flex;width:150px;height:150px;flex:0 0 150px;flex-direction:column;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.28);border-radius:30px;background:rgba(255,255,255,.1);transform:rotate(5deg)}
+.dashboard-mark-top{color:#fff;font-size:4.6rem;font-weight:900;line-height:.95}
+.dashboard-mark-bottom{margin-top:5px;color:#b9edca;font-size:1rem;font-weight:800;letter-spacing:5px}
+.dashboard-section-title{display:flex;align-items:end;justify-content:space-between;gap:16px}
+.dashboard-section-title h2{margin:5px 0 0;color:#173c2b;font-size:1.45rem}
+.dashboard-section-title p{margin:7px 0 0;color:#6b7b72}
+.dashboard-live-label{display:inline-flex;align-items:center;gap:8px;color:#607268;font-size:.82rem;font-weight:600}
+.dashboard-live-label i{width:8px;height:8px;border-radius:50%;background:#2da66a;box-shadow:0 0 0 4px rgba(45,166,106,.12)}
+.dashboard-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.dashboard-metric-card{display:flex;align-items:center;gap:15px;min-width:0;padding:20px;border:1px solid #e7eee9;border-radius:15px;background:#fff;box-shadow:0 5px 18px rgba(24,60,42,.045)}
+.dashboard-metric-icon,.dashboard-shortcut-icon{display:flex;flex:0 0 auto;align-items:center;justify-content:center;width:47px;height:47px;border-radius:13px;font-size:1.45rem;font-weight:800}
+.dashboard-metric-icon.green,.dashboard-shortcut-icon.green{color:#20804d;background:#e8f6ed}
+.dashboard-metric-icon.blue,.dashboard-shortcut-icon.blue{color:#3276ae;background:#eaf3fb}
+.dashboard-metric-icon.orange,.dashboard-shortcut-icon.orange{color:#bd7626;background:#fff3e4}
+.dashboard-metric-icon.purple,.dashboard-shortcut-icon.purple{color:#7854a7;background:#f2edfa}
+.dashboard-shortcut-icon.teal{color:#218a86;background:#e7f6f4}
+.dashboard-shortcut-icon.gray{color:#5d6d64;background:#eef2ef}
+.dashboard-metric-info{display:flex;min-width:0;flex-direction:column}
+.dashboard-metric-info>span{color:#65766b;font-size:.85rem;font-weight:600}
+.dashboard-metric-info strong{margin:3px 0;color:#173c2b;font-size:1.75rem;line-height:1.2}
+.dashboard-metric-info small{color:#89958d;font-size:.72rem}
+.dashboard-inventory-value{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 26px;border:1px solid #dceee2;border-radius:16px;background:linear-gradient(100deg,#f0faf3,#fbfefc)}
+.dashboard-inventory-value h2{margin:7px 0 3px;color:#176b43;font-size:2rem}
+.dashboard-inventory-value p{margin:0;color:#68796e;font-size:.88rem}
+.dashboard-inventory-symbol{display:flex;width:58px;height:58px;align-items:center;justify-content:center;border-radius:17px;color:#1b7548;background:#dff2e5;font-size:2rem;font-weight:800}
+.dashboard-access-title{margin-bottom:-10px}
+.dashboard-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.dashboard-shortcut-card{display:flex;min-height:205px;flex-direction:column;align-items:flex-start;padding:22px;border:1px solid #e7eee9;border-radius:15px;background:#fff;box-shadow:0 5px 18px rgba(24,60,42,.045);transition:transform .2s ease,box-shadow .2s ease}
+.dashboard-shortcut-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px rgba(24,60,42,.09)}
+.dashboard-shortcut-card h3{margin:15px 0 6px;color:#173c2b;font-size:1.05rem}
+.dashboard-shortcut-card p{margin:0 0 18px;color:#718077;font-size:.86rem;line-height:1.55}
+.dashboard-shortcut-card a{display:inline-flex;align-items:center;gap:8px;margin-top:auto;color:#1d7949;font-size:.85rem;font-weight:800;text-decoration:none}
+.dashboard-shortcut-card a:hover{color:#104a2c}
+@media(max-width:1050px){.dashboard-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.dashboard-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.dashboard-page{gap:20px}.dashboard-welcome{min-height:auto;padding:28px 22px}.dashboard-welcome-mark{display:none}.dashboard-welcome h1{font-size:1.8rem}.dashboard-welcome-actions{align-items:stretch;flex-direction:column;gap:10px}.dashboard-primary-action,.dashboard-secondary-action{width:100%}.dashboard-metrics,.dashboard-shortcuts{grid-template-columns:1fr}.dashboard-section-title{align-items:flex-start;flex-direction:column}.dashboard-inventory-value{padding:19px}.dashboard-inventory-value h2{font-size:1.55rem}}

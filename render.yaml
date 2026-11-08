@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: multitienda-pvc-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ORIGIN
+        sync: false
+      - key: DATA_DIR
+        value: /var/data

@@ -1,0 +1,101 @@
+{
+  "info": {
+    "name": "Multitienda PVC API",
+    "_postman_id": "multitienda-pvc-api",
+    "description": "Pruebas básicas de la API propia del proyecto académico.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3001/api"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/health"
+      }
+    },
+    {
+      "name": "Listar productos",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/productos"
+      }
+    },
+    {
+      "name": "Crear producto",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Producto de prueba\",\"categoria\":\"PVC\",\"descripcion\":\"Prueba API\",\"precio\":25000,\"stock\":10,\"unidad\":\"unidad\"}"
+        },
+        "url": "{{baseUrl}}/productos"
+      }
+    },
+    {
+      "name": "Validación producto - precio negativo",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Producto inválido\",\"categoria\":\"PVC\",\"precio\":-5,\"stock\":10,\"unidad\":\"unidad\"}"
+        },
+        "url": "{{baseUrl}}/productos"
+      }
+    },
+    {
+      "name": "Actualizar producto",
+      "request": {
+        "method": "PUT",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"nombre\":\"Producto actualizado\",\"categoria\":\"PVC\",\"descripcion\":\"Actualizado\",\"precio\":30000,\"stock\":20,\"unidad\":\"unidad\"}"
+        },
+        "url": "{{baseUrl}}/productos/1"
+      }
+    },
+    {
+      "name": "Eliminar producto",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/productos/1"
+      }
+    },
+    {
+      "name": "Listar clientes",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/clientes"
+      }
+    },
+    {
+      "name": "Listar ventas",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/ventas"
+      }
+    },
+    {
+      "name": "Listar cotizaciones",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/cotizaciones"
+      }
+    },
+    {
+      "name": "Dashboard",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/dashboard"
+      }
+    }
+  ]
+}
